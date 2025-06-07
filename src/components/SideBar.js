@@ -8,7 +8,7 @@ const SideBar = () => {
     if(!isMenuOpen) return null;
 
   return ( 
-    <div className='p-5 shadow-lg col-span-1 '>
+    <div className='p-5 shadow-lg w-48 '>
         <h1 className='font-bold'>Subscription</h1>
         <ul>
             <li>Music</li>
